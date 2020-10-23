@@ -5,3 +5,4 @@ url: "https://davinleonardo.me"
 
 plugins:
   - jekyll-feed
+theme: jekyll-theme-minimal
