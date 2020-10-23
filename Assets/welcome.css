@@ -1,0 +1,81 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.black-space{
+    padding-top: 10%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-color: black;
+    background-image: url("../Assets/background.webp");
+    background-size: cover;
+    background-position: center;
+}
+
+.ig-id{
+    font-weight: bold; 
+    color: #a1a1a1; 
+    text-align: center;
+    font-family: 'Calibri';
+    font-size: 20px;
+    text-decoration: none;
+    padding-bottom: 20%;
+}
+
+.white-space{
+    padding-left: 6vw;
+    padding-right: 6vw;
+    padding-bottom: 10%;
+    justify-content: center;
+}
+
+.ig-profile{
+    display: grid;
+    justify-content: center;
+}
+
+.ig-profile img{
+    border-radius: 50%;
+    padding-bottom: 5px;
+}
+
+h1{
+    padding-bottom: 2%;
+    font-family: 'Calibri';
+    color: white;
+    font-size: 9vw;
+    text-align: center;
+}
+
+h2{
+    font-family: 'Calibri';
+    color: #0D0D0D;
+    font-size: 48px;
+    text-align: center;
+}
+
+.white-space a{
+    background-color: #0D0D0D;
+    border: none;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    text-decoration: none;
+    display: block;
+    padding: 25px;
+    margin: 2px;
+    font-family: 'Calibri';
+    font-size: 20px;
+}
+
+a:hover{
+    color: #a1a1a1;
+}
+
+p{
+    font-family: 'Calibri';
+    color: #0D0D0D;
+    font-size: 20px;
+    text-align: justify;
+}

@@ -1,0 +1,22 @@
+body{
+    margin: 0;
+    padding: 0;
+    margin-top: 55px;
+    padding-top: 15%;
+    width: 100%;
+    background-repeat: repeat-y;
+    background-color: black;
+    background-image: url("background.webp");
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+}
+
+
+h1{
+    padding-bottom: 20%;
+    font-family: 'Calibri';
+    color: white;
+    font-size: 14vh;
+    text-align: center;
+}

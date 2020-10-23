@@ -1,0 +1,69 @@
+---
+layout: default
+---
+<div class="white-space">
+    <style>
+        body{
+          margin-top: 55px;
+        }
+        h1{
+          font-family: 'Calibri';
+          color: #0D0D0D;
+          font-size: 48px;
+          text-align: left;
+          padding-bottom: 0px;
+          margin-bottom: 0px;
+          padding-top: 25px;
+        }
+        .back a{
+            background-color: #0D0D0D;
+            border: solid;
+            border-color: white;
+            color: white;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 20px;
+            padding: 10px;
+            margin-top: 25px;
+        }
+        .back a:hover{
+            color: #a1a1a1;
+        }
+        p .dt-published{
+          color: #a1a1a1;
+          font-family: 'Calibri';
+          font-size: 20px;
+          text-align: justify;
+        }
+    </style>
+    <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+        <header class="post-header">
+          <h1 class="post-title p-name" itemprop="name headline">{{ page.title | escape }}</h1>
+          <p class="post-meta">
+            <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
+              {%- assign date_format = "%b %-d, %Y" -%}
+              {{ page.date | date: date_format }}
+            </time>
+            {%- if page.author -%}
+              by <span></span>
+              <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span class="p-author h-card" itemprop="name">{{ page.author }}</span></span>
+            {%- endif -%}
+            </p>
+        </header>
+      
+        <div class="post-content e-content" itemprop="articleBody">
+          {{ content }}
+        </div>
+      
+        {%- if site.disqus.shortname -%}
+          {%- include disqus_comments.html -%}
+        {%- endif -%}
+      
+        <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
+      </article>
+    <div class="back" style="display: flex;justify-content: center;">
+        <a href={{"/blog" | relative_url}}>Back to Blog</a>
+    </div>
+</div>

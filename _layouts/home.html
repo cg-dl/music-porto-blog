@@ -1,0 +1,50 @@
+---
+layout: default
+---
+<style>
+  .post-list{
+    list-style-type: none;
+    color: #a1a1a1;
+    font-family: 'Calibri';
+    font-size: 16px;
+    text-align: justify;
+    padding-left: 0;
+  }
+  h3 a{
+    font-family: 'Calibri';
+    color:  #0D0D0D;
+    font-size: 28px;
+    text-align: left;
+    text-decoration: none;
+  }
+</style>
+<div class="black-space">
+    <h1>BLOG</h1>
+</div>
+<div class="white-space">
+    <div class="home">
+        {%- if site.posts.size > 0 -%}
+          <h2 class="post-list-heading">{{ page.list_title | default: "Posts" }}</h2>
+          <ul class="post-list">
+            {%- for post in site.posts -%}
+            <li>
+              {%- assign date_format = "%b %-d, %Y" -%}
+              <span class="post-meta">{{ post.date | date: date_format }}</span>
+              <h3>
+                <a class="post-link" href="{{ post.url | relative_url }}">
+                  {{ post.title | escape }}
+                </a>
+              </h3>
+              <p>
+                {{ post.content | strip_html | truncatewords: 50 }}
+              </p>
+            </li>
+            <br/>
+            {%- endfor -%}
+          </ul>
+      
+          <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | relative_url }}">via RSS</a></p>
+        {%- endif -%}
+      
+      </div>
+</div>

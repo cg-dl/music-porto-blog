@@ -1,0 +1,87 @@
+.topnav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    background-color: black;
+    display: inline-flex;
+    justify-content: right;
+    align-items: right;
+}
+.topnav a {
+    border-style: solid;
+    border-color: transparent;
+    color: white;
+    text-align: center;
+    padding: 15px 15px;
+    font-family: 'Calibri';
+    text-decoration: none;
+    font-size: 17px;
+}
+  
+.topnav a:hover {
+    color: #a1a1a1;
+}
+  
+.topnav a.active {
+    border-style: solid;
+    border-color: transparent transparent white transparent;
+    color: white;
+}
+
+.topnav .icon {
+    display: none;
+}
+
+@media screen and (max-width: 600px) {
+    .topnav{
+        display: block;
+    }
+    .topnav a:not(:first-child) {display: none;}
+    .topnav a.icon {
+        display: block;
+        color: white;
+        text-align: right;
+        padding: 15px 15px;
+        padding-right: 5vw;
+        font-family: 'Calibri';
+        text-decoration: none;
+        font-size: 17px;
+    }
+}
+  
+ @media screen and (max-width: 600px) {
+    .topnav.responsive{
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        width: 100%;
+        background-color: black;
+        display: block;
+    }
+
+    .topnav.responsive a.icon {
+        display: block;
+        color: white;
+        text-align: right;
+        font-family: 'Calibri';
+        text-decoration: none;
+        font-size: 17px;
+    }
+
+    .topnav.responsive a {
+        float: none;
+        display: block;
+        padding-right: 5vw;
+        text-align: right;
+    }
+
+    .topnav.responsive a.active {
+        border-style: solid;
+        color: white;
+        background-color: #3D3D3D;
+        border-color: black;
+    } 
+}
