@@ -2,7 +2,7 @@
 layout: post
 title: "Introduction: First Blog Post"
 date: 2020-10-23 15:02:00 +0700
-categories: general
+categories: blog general
 author: Davin
 ---
 Hello, my name is Davin, an amateur composer of Classical and Sacred music and also the owner and the creator of this website. I'm from Indonesia.
