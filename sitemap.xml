@@ -1,81 +1,77 @@
-<urlset xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+
+
+
 <url>
-<loc>https://davinleonardo.me/</loc>
-<lastmod>2020-10-25T12:46:03+00:00</lastmod>
-<priority>1.00</priority>
+  <loc>https://davinleonardo.me/</loc>
+  <lastmod>2020-10-25T12:52:17+00:00</lastmod>
+  <priority>1.00</priority>
 </url>
 <url>
-<loc>https://davinleonardo.me/composition</loc>
-<lastmod>2020-10-25T12:46:07+00:00</lastmod>
-<priority>0.80</priority>
+  <loc>https://davinleonardo.me/composition</loc>
+  <lastmod>2020-10-25T12:52:20+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-<loc>https://davinleonardo.me/arrangement</loc>
-<lastmod>2020-10-25T12:46:07+00:00</lastmod>
-<priority>0.80</priority>
+  <loc>https://davinleonardo.me/arrangement</loc>
+  <lastmod>2020-10-25T12:52:20+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-<loc>https://davinleonardo.me/contact</loc>
-<lastmod>2020-10-25T12:46:07+00:00</lastmod>
-<priority>0.80</priority>
+  <loc>https://davinleonardo.me/contact</loc>
+  <lastmod>2020-10-25T12:52:20+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-<loc>https://davinleonardo.me/blog</loc>
-<lastmod>2020-10-25T12:46:07+00:00</lastmod>
-<priority>0.80</priority>
+  <loc>https://davinleonardo.me/blog</loc>
+  <lastmod>2020-10-25T12:52:20+00:00</lastmod>
+  <priority>0.80</priority>
 </url>
 <url>
-<loc>
-https://davinleonardo.me/composition/ave-maria-1.html
-</loc>
-<lastmod>2020-10-25T12:46:07+00:00</lastmod>
-<priority>0.64</priority>
+  <loc>https://davinleonardo.me/composition/ave-maria-1.html</loc>
+  <lastmod>2020-10-25T12:52:20+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-<loc>https://davinleonardo.me/composition/la-pieta.html</loc>
-<lastmod>2020-10-25T12:46:07+00:00</lastmod>
-<priority>0.64</priority>
+  <loc>https://davinleonardo.me/composition/la-pieta.html</loc>
+  <lastmod>2020-10-25T12:52:20+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-<loc>
-https://davinleonardo.me/composition/forlorn-trio.html
-</loc>
-<lastmod>2020-10-25T12:46:07+00:00</lastmod>
-<priority>0.64</priority>
+  <loc>https://davinleonardo.me/composition/forlorn-trio.html</loc>
+  <lastmod>2020-10-25T12:52:20+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-<loc>
-https://davinleonardo.me/composition/o-magnum-mysterium.html
-</loc>
-<lastmod>2020-10-25T12:46:07+00:00</lastmod>
-<priority>0.64</priority>
+  <loc>https://davinleonardo.me/composition/o-magnum-mysterium.html</loc>
+  <lastmod>2020-10-25T12:52:20+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-<loc>
-https://davinleonardo.me/composition/sq-1-g-minor.html
-</loc>
-<lastmod>2020-10-25T12:46:07+00:00</lastmod>
-<priority>0.64</priority>
+  <loc>https://davinleonardo.me/composition/sq-1-g-minor.html</loc>
+  <lastmod>2020-10-25T12:52:20+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-<loc>
-https://davinleonardo.me/arrangement/lourdes-hymn.html
-</loc>
-<lastmod>2020-10-25T12:46:07+00:00</lastmod>
-<priority>0.64</priority>
+  <loc>https://davinleonardo.me/arrangement/lourdes-hymn.html</loc>
+  <lastmod>2020-10-25T12:52:20+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-<loc>
-https://davinleonardo.me/free-arrangement/puer-natus-in-bethlehem.html
-</loc>
-<lastmod>2020-10-25T12:46:07+00:00</lastmod>
-<priority>0.64</priority>
+  <loc>https://davinleonardo.me/free-arrangement/puer-natus-in-bethlehem.html</loc>
+  <lastmod>2020-10-25T12:52:20+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
-<loc>
-https://davinleonardo.me/blog/2020-10-23-introduction-first-blog-post.html
-</loc>
-<lastmod>2020-10-25T12:46:07+00:00</lastmod>
-<priority>0.64</priority>
+  <loc>https://davinleonardo.me/blog/2020-10-23-introduction-first-blog-post.html</loc>
+  <lastmod>2020-10-25T12:52:20+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
+
+
 </urlset>
