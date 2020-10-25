@@ -1,8 +1,16 @@
-title: Blog | Davin Leonardo
+title: Home | Davin Leonardo
 description: C. G. Davin Leonardo is an amateur composer of Classical music and Sacred Music from Indonesia, focusing on choral composition.
 baseurl: ""
 url: "https://davinleonardo.me"
 
-plugins:
-  - jekyll-feed
-theme: jekyll-theme-minimal
+collections:
+  composition:
+    output: true
+  arrangement:
+    output: true
+  free-composition:
+    output: true
+  free-arrangement:
+    output: true
+  blog:
+    output: true

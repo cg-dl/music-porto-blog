@@ -5,4 +5,14 @@ function responsive() {
     } else {
         x.className = "topnav";
     }
-} 
+}
+
+function active()
+{
+    var y = (document.title).toString();
+    var pageName = (y.replace(/ .*/,'')).toLowerCase();
+    var x = document.getElementById(pageName);
+    x.className += " active";
+}
+
+active();

@@ -1,0 +1,52 @@
+---
+layout: default
+---
+<div class="white-space">
+    <style>
+        @media screen and (max-width: 600px) {
+            iframe{
+                width: 100%;
+                height: auto;
+            }
+        }
+        body{
+          margin-top: 55px;
+        }
+        h2{
+          padding-top: 25px;
+          margin-bottom: 0px;
+        }
+        li{
+          font-family: 'Calibri';
+          color: #0D0D0D;
+          font-size: 20px;
+          text-align: justify;
+        }
+    </style>
+    <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+        <header class="post-header">
+          <h2 class="post-title p-name" itemprop="name headline">{{ page.title | escape }}</h2>
+          <p class="post-meta" style="font-style: italic;">
+            Composed on <span> </span>
+            <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
+              {%- assign date_format = "%b %-d, %Y" -%}
+              {{ page.date | date: date_format }}
+            </time>
+            by C. G. Davin Leonardo
+            </p>
+        </header>
+      
+        <div class="post-content e-content" itemprop="articleBody">
+          {{ content }}
+        </div>
+      
+        {%- if site.disqus.shortname -%}
+          {%- include disqus_comments.html -%}
+        {%- endif -%}
+      
+        <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
+      </article>
+    <div class="button" style="margin-top: 25px;">
+        <a href={{"/composition" | relative_url}}>View All Compositions</a>
+    </div>
+</div>
