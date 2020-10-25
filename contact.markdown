@@ -1,7 +1,6 @@
 ---
 layout: pages
-title: Contacts | Davin Leonardo
-type: contacts
+title: Contacts
 ---
 <html>
     <style>

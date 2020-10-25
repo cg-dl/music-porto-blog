@@ -1,7 +1,6 @@
 ---
 layout: pages
-title: Compositions | Davin Leonardo
-type: compositions
+title: Compositions
 list_title: Free Compositions
 ---
 

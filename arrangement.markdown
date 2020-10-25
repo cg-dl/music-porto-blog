@@ -1,7 +1,6 @@
 ---
 layout: pages
-title: Arrangements | Davin Leonardo
-type: Arrangements
+title: Arrangements
 list_title: Free Arrangements
 ---
 

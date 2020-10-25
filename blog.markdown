@@ -1,7 +1,6 @@
 ---
 layout: pages
-title: Blog | Davin Leonardo
-type: blog
+title: Blog
 ---
 <html>
 <div class="white-space">
