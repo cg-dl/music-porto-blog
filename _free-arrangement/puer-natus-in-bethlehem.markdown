@@ -2,6 +2,7 @@
 title: Puer natus in Bethlehem (SATB a cappella)
 composer: Gregorian Chant
 layout: arrange
+location: arrangements
 date: 2017-08-25 +0700
 ---
 

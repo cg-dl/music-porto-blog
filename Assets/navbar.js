@@ -7,12 +7,7 @@ function responsive() {
     }
 }
 
-function active()
+function active(id)
 {
-    var y = (document.title).toString();
-    var pageName = (y.replace(/ .*/,'')).toLowerCase();
-    var x = document.getElementById(pageName);
-    x.className += " active";
+    id.className += " active";
 }
-
-active();

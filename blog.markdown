@@ -1,6 +1,7 @@
 ---
 layout: pages
 title: Blog
+location: blog
 ---
 <html>
 <div class="white-space">

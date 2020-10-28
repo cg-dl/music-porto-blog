@@ -1,6 +1,36 @@
+@media screen and (max-width: 600px) {
+    iframe{
+        width: 100%;
+        height: auto;
+    }
+}
+
 body{
     margin: 0;
     padding: 0;
+}
+
+.name-container{
+    margin-top: 55px;
+    padding-top: 15%;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-color: black;
+    background-image: url("background new.webp");
+    background-size: contain;
+    background-position: right;
+}
+
+.name{
+    padding-left: 6vw;
+    padding-bottom: 10%;
+}
+
+.bio-img{
+    size: inherit;
+    padding-right: 6vw;
+    float: left;
+    width: fit-content;
 }
 
 .black-space{
@@ -58,10 +88,47 @@ p{
     text-align: justify;
 }
 
+.works-container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.works-flex{
+    width: 45%;
+    height: fit-content;
+}
+
+@media screen and (max-width: 600px){
+    .works-container{
+        display: block;
+        margin-top: 20px;
+    }
+    
+    .works-flex{
+        width: 100%;
+        height: fit-content;
+    }
+}
+
+.post-list{
+    list-style-type: none;
+    color: #a1a1a1;
+    font-family: 'Calibri';
+    font-size: 16px;
+    text-align: justify;
+    padding-left: 0;
+  }
+
+  h3 a{
+    font-family: 'Calibri';
+    color:  #0D0D0D;
+    font-size: 28px;
+    text-align: left;
+  }
+
 .button a{
     background-color: #0D0D0D;
-    border: solid;
-    border-color: white;
     color: white;
     text-align: center;
     text-decoration: none;
@@ -73,10 +140,4 @@ p{
 
 .button a:hover{
     color: #a1a1a1;
-}
-
-@media screen and (max-width: 700px) {
-    table, thead, tbody, th, td, tr{
-        display: block;
-    }
 }

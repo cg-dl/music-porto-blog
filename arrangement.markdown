@@ -1,6 +1,7 @@
 ---
 layout: pages
 title: Arrangements
+location: arrangements
 list_title: Free Arrangements
 ---
 

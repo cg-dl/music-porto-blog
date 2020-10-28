@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href={{"Assets/pages.css" | relative_url}}>
+    <link rel="stylesheet" href={{"Assets/main.css" | relative_url}}>
     <link rel="stylesheet" href={{"Assets/navbar.css" | relative_url}}>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href={{"Assets/cgdl.ico" | relative_url}}>
@@ -23,7 +23,7 @@
         ga('send', 'pageview');
     </script>
 </head>
-<body>
+<body onload="active({{page.location}})">
     <header>
         <div class="topnav" id="navbar">
             <a href="javascript:void(0);" class="icon" onclick="responsive()">

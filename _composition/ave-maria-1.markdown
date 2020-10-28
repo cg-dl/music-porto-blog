@@ -2,6 +2,8 @@
 title: Ave Maria, gratia plena
 layout: compose
 date: 2020-10-11 +0700
+location: compositions
+embed: https://www.youtube.com/embed/EsVbj3AEZJQ
 ---
 
 <div class="button">

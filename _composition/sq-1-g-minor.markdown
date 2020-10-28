@@ -2,6 +2,7 @@
 title: String Quartet in G Minor
 layout: compose
 date: 2019-05-23 +0700
+location: compositions
 ---
 
 This is my first composition of String Quartet. It is written in G Minor and follows the traditional form:

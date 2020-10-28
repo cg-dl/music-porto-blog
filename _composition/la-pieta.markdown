@@ -2,6 +2,7 @@
 title: La Pietà
 layout: compose
 date: 2020-08-31 +0700
+location: compositions
 ---
 <div class="button">
     <a href="https://www.sheetmusicplus.com/title/21872891" target="_blank" onclick="ga('send', 'event', 'buttons', 'download', 'comp-la-pieta')">Download sheet music here!</a>

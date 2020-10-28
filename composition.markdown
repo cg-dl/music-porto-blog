@@ -2,6 +2,7 @@
 layout: pages
 title: Compositions
 list_title: Free Compositions
+location: compositions
 ---
 
 <html>

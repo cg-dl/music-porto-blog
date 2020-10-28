@@ -1,6 +1,7 @@
 ---
 layout: pages
 title: Contacts
+location: contacts
 ---
 <html>
     <style>
@@ -70,7 +71,7 @@ title: Contacts
                 Website Designer
             </h2>
             <p>
-                This website is designed by myself!
+                This website is designed and built by myself!
             </p>
             <p>See my other IT-related works <br/>
                 on my portfolio website:</p>
