@@ -1,5 +1,6 @@
-function responsive() {
+function responsive(y) {
     var x = document.getElementById("navbar");
+    y.classList.toggle("change");
     if (x.className === "topnav") {
         x.className += " responsive";
     } else {
