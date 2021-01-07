@@ -8,7 +8,7 @@ location: blog
     {%- if site.blog.size > 0 -%}
         <h2 class="post-list-heading">Posts</h2>
         <ul class="post-list">
-          {%- for post in site.blog -%}
+          {%- for post in site.blog reversed-%}
           <li>
             {%- assign date_format = "%b %-d, %Y" -%}
             <span class="post-meta">{{ post.date | date: date_format }}</span>

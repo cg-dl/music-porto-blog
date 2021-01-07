@@ -16,8 +16,41 @@ layout: default
           font-size: 20px;
           text-align: justify;
         }
+        h4{
+          padding-top: 25px;
+          margin-bottom: 0px;
+          font-family: 'Calibri';
+          font-size: 36px;
+          color: #0D0D0D;
+        }
+        .white-space{
+          display:flex;
+          justify-content: space-around;
+        }
+        .main-content{
+          max-width: 65%;
+        }
+        .side-content{
+          max-width: 30%;
+        }
+        .button.hide{
+          display: none;
+        }
+
+        @media screen and (max-width: 960px) {
+          .side-content{
+            display: none;
+          }
+          .main-content{
+            max-width: 100%;
+          }
+          .button.hide{
+            display: block;
+          }
+        }
     </style>
-    <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+    <div class="main-content">
+      <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
         <header class="post-header">
           <h2 class="post-title p-name" itemprop="name headline">{{ page.title | escape }}</h2>
           <p class="post-meta" style="font-style: italic;">
@@ -27,20 +60,44 @@ layout: default
               {{ page.date | date: date_format }}
             </time>
             by C. G. Davin Leonardo
-            </p>
+          </p>
         </header>
-      
         <div class="post-content e-content" itemprop="articleBody">
           {{ content }}
         </div>
-      
-        {%- if site.disqus.shortname -%}
-          {%- include disqus_comments.html -%}
-        {%- endif -%}
-      
-        <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
       </article>
-    <div class="button" style="margin-top: 25px;">
-        <a href={{"/composition" | relative_url}}>View All Compositions</a>
+      <div class="button hide" style="margin-top: 25px;">
+          <a href={{"/composition" | relative_url}}>View All Compositions</a>
+      </div>
+    </div>
+    <div class="side-content">
+      <h4>Other Compositions</h4>
+      <ul class="post-list" style="text-align: left;">
+        {%- assign compose = site.composition | sort: 'date' | reverse -%}
+        {%- for post in compose limit:5-%}
+          {%- unless post.title == page.title -%}
+            <li>
+              <h3>
+                <a class="post-link" href="{{ post.url | relative_url }}">
+                  {{ post.title | escape }}
+                </a>
+              </h3>
+              <a href="{{ post.url | relative_url }}" style="text-decoration: none;">
+                Composed on <span> </span>
+                <time datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
+                  {%- assign date_format = "%b %-d, %Y" -%}
+                  {{ post.date | date: date_format }}
+                </time>
+                by C. G. Davin Leonardo
+              </a>
+            </li>
+          {%-endunless-%}
+        {%- endfor -%}
+        {%- if compose.size > 5 -%}
+          <div class="button" style="margin-top: 25px; text-align: center;">
+            <a href={{"/composition" | relative_url}}>See more</a>
+          </div>
+        {%- endif -%}
+      </ul>
     </div>
 </div>
