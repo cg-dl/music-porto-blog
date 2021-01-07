@@ -31,14 +31,18 @@ body{
 }
 
 .topnav a:hover {
-    color: #a1a1a1;
+    color: #677381;
+}
+
+.topnav a:active {
+    color: #82A0AA;
+    background-color: #2A272A;
 }
 
 .black-space{
     padding-top: 10%;
     width: 100%;
     background-repeat: no-repeat;
-    background-color: black;
     background-image: url("../Assets/background.webp");
     background-size: cover;
     background-position: center;
@@ -46,7 +50,7 @@ body{
 
 .ig-id{
     font-weight: bold; 
-    color: #a1a1a1; 
+    color: #677381; 
     text-align: center;
     font-family: 'Calibri';
     font-size: 20px;
@@ -81,7 +85,7 @@ h1{
 
 h2{
     font-family: 'Calibri';
-    color: #0D0D0D;
+    color:black;
     font-size: 48px;
     text-align: center;
 }
@@ -97,7 +101,7 @@ h3{
 }
 
 .white-space a{
-    background-color: #0D0D0D;
+    background-color: black;
     border: none;
     color: white;
     text-align: center;
@@ -111,12 +115,17 @@ h3{
 }
 
 a:hover{
-    color: #a1a1a1;
+    color: #677381;
+}
+
+a:active{
+    color: #82A0AA;
+    background-color: #2A272A;
 }
 
 p{
     font-family: 'Calibri';
-    color: #0D0D0D;
+    color: black;
     font-size: 20px;
     text-align: justify;
 }

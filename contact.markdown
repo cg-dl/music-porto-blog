@@ -10,7 +10,7 @@ location: contacts
             justify-content: space-evenly;
         }
         button{
-            background-color: #0D0D0D;
+            background-color: black;
             border: solid;
             border-color: white;
             color: white;
@@ -22,7 +22,11 @@ location: contacts
             margin-right: 59px;
         }
         button:hover {
-            color: #a1a1a1;
+            color: #677381;
+        }
+        button:active {
+            color: #82A0AA;
+            background-color: #2A272A;
         }
         .details{
             padding-right: 5%;

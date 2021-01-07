@@ -21,7 +21,12 @@
 }
   
 .topnav a:hover {
-    color: #a1a1a1;
+    color: #677381;
+}
+
+.topnav a:active {
+    color: #82A0AA;
+    background-color: #2A272A;
 }
   
 .topnav a.active {
@@ -67,10 +72,6 @@
         -webkit-transform: rotate(45deg) translate(-8px, -8px) ;
         transform: rotate(45deg) translate(-8px, -8px) ;
     }
-
-    .topnav .icon .change{
-        background-color: #3D3D3D;
-    }
 }
   
  @media screen and (max-width: 600px) {
@@ -103,7 +104,7 @@
     .topnav.responsive a.active {
         border-style: solid;
         color: white;
-        background-color: #3D3D3D;
+        background-color: #4B4A54;
         border-color: black;
     } 
 }
