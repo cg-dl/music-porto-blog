@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "2020 Highlights: Part 1"
-date: 2021-01-06 23:53:00 +0700 # ganti wooooi
+date: 2021-01-07 12:41:00 +0700
 categories: general
 location: blog
 author: Davin
