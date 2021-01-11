@@ -26,17 +26,21 @@
 <body>
     <header>
         <div class="topnav" id="navbar">
+            <div class="icon" onclick="responsive(this)" style="align-items: baseline;">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+            </div>
+            <a href={{"./" | relative_url}} id="home">Home</a>
+            <a href={{"composition" | relative_url}} id="compositions">Compositions</a>
+            <a href={{"arrangement" | relative_url}} id="arrangements">Arrangements</a>
+            <a href={{"contact" | relative_url}} id="contacts">Contacts</a>
+            <a href={{"blog" | relative_url}} id="blog">Blog</a>
             <script type="text/javascript" src={{"Assets/navbar.js" | relative_url}}></script>
-            <a href="javascript:void(0);" class="icon" onclick="responsive()">
-                Menu
-            </a>
-            <a href={{"./" | relative_url}}>Home</a>
-            <a href={{"composition" | relative_url}}>Compositions</a>
-            <a href={{"arrangement" | relative_url}}>Arrangements</a>
-            <a href={{"contact" | relative_url}}>Contacts</a>
-            <a href={{"blog" | relative_url}}>Blog</a>
         </div>
     </header>
-    <h1>404 NOT FOUND</h1>
+    <div class="back">
+        <h1>404 NOT FOUND</h1>
+    </div>
 </body>
 </html>

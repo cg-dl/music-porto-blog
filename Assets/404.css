@@ -2,20 +2,21 @@ body{
     margin: 0;
     padding: 0;
     margin-top: 55px;
-    padding-top: 15%;
     width: 100%;
-    background-repeat: repeat-y;
-    background-image: url("background.webp");
+    background: url("background.webp") no-repeat center center fixed;
     background-size: cover;
-    background-position: center;
+    height: 100%;
     overflow: hidden;
 }
 
-
 h1{
-    padding-bottom: 20%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
     font-family: 'Calibri';
     color: white;
-    font-size: 14vh;
+    font-size: 7vh;
     text-align: center;
 }
