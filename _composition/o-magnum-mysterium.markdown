@@ -2,6 +2,7 @@
 title: O magnum mysterium (SSATBB, SATB Solo, SATB)
 layout: compose
 date: 2020-07-28 +0700
+date_release: 2020-12-24 +0700
 location: compositions
 ---
 

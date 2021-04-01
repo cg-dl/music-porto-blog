@@ -2,6 +2,7 @@
 title: String Quartet in G Minor
 layout: compose
 date: 2019-05-23 +0700
+date_release: 2019-05-23 +0700
 location: compositions
 ---
 

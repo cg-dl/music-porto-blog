@@ -9,25 +9,6 @@ location: contacts
             display: flex;
             justify-content: space-evenly;
         }
-        button{
-            background-color: black;
-            border: solid;
-            border-color: white;
-            color: white;
-            text-align: center;
-            text-decoration: none;
-            display: inline-block;
-            font-size: 16px;
-            padding: 10px;
-            margin-right: 59px;
-        }
-        button:hover {
-            color: #677381;
-        }
-        button:active {
-            color: #82A0AA;
-            background-color: #2A272A;
-        }
         .details{
             padding-right: 5%;
         }
@@ -36,9 +17,6 @@ location: contacts
         }
         .links a{
             display: block;
-        }
-        .hide{
-            display: none;
         }
         @media screen and (max-width: 600px) {
             .white-space{

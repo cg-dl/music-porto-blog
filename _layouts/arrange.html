@@ -67,7 +67,7 @@ layout: default
     <div class="side-content">
       <h4>Other Arrangements</h4>
       <ul class="post-list" style="text-align: left;">
-        {%- assign arrange = site.arrangement | concat: site.free-arrangement | sort: 'date' | reverse -%}
+        {%- assign arrange = site.arrangement | concat: site.free-arrangement | sort: 'date_release' | reverse -%}
         {%- for post in arrange limit:5-%}
           {%- unless post.title == page.title -%}
             <li>

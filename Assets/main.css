@@ -154,3 +154,26 @@ p{
     color: #82A0AA;
     background-color: #2A272A;
 }
+
+button{
+    background-color: black;
+    border: solid;
+    border-color: white;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    padding: 10px;
+    margin-right: 59px;
+}
+button:hover {
+    color: #677381;
+}
+button:active {
+    color: #82A0AA;
+    background-color: #2A272A;
+}
+.hide{
+    display: none;
+}

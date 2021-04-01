@@ -2,6 +2,7 @@
 title: La Pietà
 layout: compose
 date: 2020-08-31 +0700
+date_release: 2020-08-31 +0700
 location: compositions
 ---
 <div class="button">

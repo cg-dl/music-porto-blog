@@ -2,6 +2,7 @@
 title: Forlorn - Piano Trio in G Minor
 layout: compose
 date: 2020-08-16 +0700
+date_release: 2020-08-16 +0700
 location: compositions
 ---
 

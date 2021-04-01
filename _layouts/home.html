@@ -54,8 +54,9 @@ layout: default
         {%- assign date_format = "%b %-d, %Y" -%}
         <div class="works-flex">
             <h2 class="works-cat">RECENT COMPOSITION</h2>
-            {%- assign comp = site.composition.last -%}
-            <span class="post-meta">{{ comp.date | date: date_format }}</span>
+            {% assign comp = site.composition | sort: 'date_release' %}
+            {%- assign comp = comp.last -%}
+            <span class="post-meta">{{ comp.date_release | date: date_format }}</span>
             <h3 class="works-title">
                 <a class="works-title"href="{{ comp.url | relative_url }}">
                   {{ comp.title | escape }}
@@ -70,8 +71,9 @@ layout: default
         </div>
         <div class="works-flex">
             <h2 class="works-cat">RECENT ARRANGEMENT</h2>
-            {%- assign arr = site.arrangement.last -%}
-            <span class="post-meta">{{ arr.date | date: date_format }}</span>
+            {% assign arr = site.arrangement | sort: 'date_release' %}
+            {%- assign arr = arr.last -%}
+            <span class="post-meta">{{ arr.date_release | date: date_format }}</span>
             <h3 class="works-title">
                 <a href="{{ arr.url | relative_url }}">
                   {{ arr.title | escape }}

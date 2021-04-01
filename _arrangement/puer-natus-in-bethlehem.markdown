@@ -4,6 +4,7 @@ composer: Gregorian Chant
 layout: arrange
 location: arrangements
 date: 2017-08-25 +0700
+date_release: 2017-08-25 +0700
 ---
 
 <div class="button">
