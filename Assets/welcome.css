@@ -20,14 +20,14 @@ body{
 
 .topnav a {
     color: white;
+    border-style: solid;
+    border-color: transparent transparent #82A0AA transparent;
     text-align: center;
     padding: 15px 15px;
     font-family: 'Calibri';
     font-weight: bold;
     text-decoration: none;
     font-size: 17px;
-    border-style: solid;
-    border-color: transparent;
 }
 
 .topnav a:hover {
