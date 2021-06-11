@@ -5,6 +5,9 @@ date: 2020-10-11 +0700
 date_release: 2020-10-11 +0700
 location: compositions
 ---
+<div class="button">
+    <a href="https://www.sheetmusicplus.com/title/21877485" target="_blank" onclick="ga('send', 'event', 'buttons', 'download', 'comp-ave-maria-1')">Download sheet music here!</a>
+</div>
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/EsVbj3AEZJQ" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 

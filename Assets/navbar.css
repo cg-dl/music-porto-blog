@@ -6,10 +6,19 @@
     right: 0;
     width: 100%;
     background-color: black;
-    display: inline-flex;
+    display: flex;
     justify-content: right;
     align-items: right;
+    white-space: nowrap;
+    overflow: auto;
 }
+
+@media screen and (max-width: 1140px) {
+    .topnav{
+        justify-content: left;
+    }
+}
+
 .topnav a {
     border-style: solid;
     border-color: transparent;
@@ -39,7 +48,7 @@
 .topnav .icon {
     display: none;
 }
-
+/* 
 @media screen and (max-width: 600px) {
     .topnav{
         display: block;
@@ -108,4 +117,4 @@
         background-color: #4B4A54;
         border-color: black;
     } 
-}
+} */
